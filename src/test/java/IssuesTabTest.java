@@ -6,6 +6,7 @@ public class IssuesTabTest extends BasicTest {
 
     @Test
     public void GoToIssuesPage() {
+        //goToIssuesPage
         HomePage homePage = new HomePage(driver);
         homePage.goToLoginPage();
         LoginPage loginPage = new LoginPage(driver);
